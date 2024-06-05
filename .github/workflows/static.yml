@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+  <html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <title>Lightly-HTML-Project</title>
+      <style>
+         #2{
+           size: 7px;
+         }
+      </style>
+      <script>
+        function shangan(){
+          var a=document.getElementById("text1").value;
+          alert(a+"上岸")
+        }
+      </script>
+  </head>
+  <body>
+      <form action="post">
+        <p>请输入你的名字<input type="text" name="" id="text1"></p>
+        <input type="button" value="确认" id="2" onclick="shangan()">
+      </form>
+  </body>
+</html>
